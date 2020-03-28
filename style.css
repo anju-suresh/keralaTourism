@@ -1,0 +1,59 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.caros{
+    border:1px solid red;
+}
+.carousel-caption {
+    
+    text-align: botttom left;
+    max-width: 250px;
+    bottom:0px;
+    right:100%;
+    top:60%; 
+    font-family:"Sofia"; 
+}
+.carousel-caption p{
+    font-family: 'Oleo Script Swash Caps';
+    color: orange ;
+}
+.carousel-caption h5{
+    font-family:"Sofia";
+    color: khaki;
+}
+#p1{
+    color: chartreuse;
+}
+#p2{
+    color: greenyellow;
+}
+.logo img{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    margin-left:0px;
+    margin-right: 10%;
+    margin-top: 28%;
+    
+    /* border: 1px solid black; */
+}
+.contain{
+    position: absolute;
+    margin-left:53%;
+    margin-top:170px;
+    margin-right:0px;
+    width: auto;
+  } 
+  
+.topnav a{
+    float:left;
+    color:darkred;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px yellow;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
