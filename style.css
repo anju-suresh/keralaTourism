@@ -10,7 +10,7 @@
 } */
 .caros{
     background-position:fixed;
-    border:1px solid red;
+    border-bottom:1px solid red;
 }
  .mainhead{
     /* text-align:top; */
@@ -68,17 +68,16 @@
 }
 .contain{
     position: absolute;
-    margin-left:60%;
-    margin-top:300px;
+    margin-left:40%;
+    margin-top:280px;
     margin-right:0px;
     width: auto;
   } 
   
-.topnav a{
+.nav-item{
     float:left;
-    color: wheat;
     font-size: 23px;
-    text-shadow: 10px 10px 6px rgb(148, 57, 57);
+    text-shadow: 4px 4px 6px rgb(148, 57, 57);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
