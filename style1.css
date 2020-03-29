@@ -1,0 +1,8 @@
+*{
+        margin:0px;
+        padding:0px;
+}
+body{
+    background-image: url("image/l3.jpg");
+    background-size: cover;
+}

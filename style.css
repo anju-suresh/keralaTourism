@@ -12,21 +12,35 @@
     background-position:fixed;
     border:1px solid red;
 }
-.carousel-caption{
+ .mainhead{
+    /* text-align:top; */
+    max-width:900px;
+    left:90%;
+    top: 28%;
+    right:0px;
+    bottom: 50%; 
     
-    text-align: botttom left;
+} 
+.mainhead p{
+    font-family:"Sofia"; 
+    color: gold ;
+}
+.mainhead h1{
+    font-family: 'Oleo Script Swash Caps'; 
+    text-shadow: 5px 5px 4px rgb(168, 56, 168); 
+    color: lawngreen;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 60px;
+}
+.caption{ 
+    text-align: bottom left;
     max-width: 450px;
     bottom:0px;
     right:80%;
     top:60%; 
     font-family:"Sofia"; 
 }
-.carousel-caption h1{
-    text-align:center;
-    max-width:1000px; 
-    font-family:"Sofia"; 
-
-} 
 .carousel-caption h5{
     font-family: 'Oleo Script Swash Caps';
     color: orange ;
@@ -44,8 +58,8 @@
 }
 .logo img{
     position: absolute;
-    height: 30px;
-    width: 50px;
+    height: 60px;
+    width: 70px;
     margin-left:0px;
     margin-right: 10%;
     margin-top: 0px; /*23.4%*/
@@ -54,19 +68,27 @@
 }
 .contain{
     position: absolute;
-    margin-left:65%;
-    margin-top:305px;
+    margin-left:60%;
+    margin-top:300px;
     margin-right:0px;
     width: auto;
   } 
   
 .topnav a{
     float:left;
-    color:darkred;
-    font-size: 20px;
-    text-shadow: 1px 1px 2px yellow;
+    color: wheat;
+    font-size: 23px;
+    text-shadow: 10px 10px 6px rgb(148, 57, 57);
     text-align: center;
-    padding: 10px 12px;
+    padding: 14px 16px;
     text-decoration: none;
-  }
-  
+}
+/* .carousel-bullet li{
+    list-style-type: circle;
+    display: flex;
+  } */
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
