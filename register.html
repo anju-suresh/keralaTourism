@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+    <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="signup1\colorlib-regform-8\fonts\material-icon\css\material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="signup1\colorlib-regform-8\css\style.css">
+</head>
+<body>
+    <div class="main">
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="Address" class="form-input" id="address" rows="1" placeholder="Your Address"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <select name="dropdown" id="districts" class="form-input">
+                                <option value="Your District" class="form-input" id="s1">Your District</option>
+                                <option value="Kasaragod">Kasaragod</option>
+                                <option value="Kannur">Kannur</option>
+                                <option value="Wayanad">Wayanad</option>
+                                <option value="Kozhikode">Kozhikode</option>
+                                <option value="Malappuram">Malappuram</option>
+                                <option value="Palakad">Palakad</option>
+                                <option value="Thissur">Thissur</option>
+                                <option value="Ernakulam">Ernakulam</option>
+                                <option value="Idukki">Idukki</option>
+                                <option value="Kottayam">Kottayam</option>
+                                <option value="Pathanamthitta">Pathanamthitta</option>
+                                <option value="Alappuzha">Alappuzha</option>
+                                <option value="Kollam">Kollam</option>
+                                <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                               </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="radio" name="gender" id="female" value="female">Female
+                            <input type="radio" name="gender" id="male" value="female">Male
+                            <input type="radio" name="gender" id="trans" value="Trans">Transgender
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="state" id="state" placeholder="Your State"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="Country" id="Country" placeholder="Your Country"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-input" name="number" id="num" placeholder="Your Phone"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Confirm your password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                        </div>
+                        <div class="form-group">
+                            <button name="submit" id="submit" class="form-submit" value="Sign up" onClick="parent.open('logIn.html')">Sign Up</button>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                        Have already an account ? <a href="logIn.html" class="loginhere-link"> Login here</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
